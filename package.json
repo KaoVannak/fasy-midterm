@@ -2,12 +2,12 @@
   "name": "my-next-app",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
+ "scripts": {
   "dev": "next dev",
   "build": "next build",
-  "export": "next build && next export",
-  "deploy": "npm run export && gh-pages -d out"
+  "deploy": "next build && gh-pages -d out"
 }
+
 ,
   "dependencies": {
     "next": "15.1.6",
